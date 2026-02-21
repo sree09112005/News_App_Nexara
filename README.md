@@ -1,42 +1,20 @@
-News App
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A modern Android News App that delivers the latest headlines and trending stories in real time.
-Built with a clean and user-friendly interface to provide seamless browsing across multiple news categories.
+# Run and deploy your AI Studio app
 
-🚀 Features
+This contains everything you need to run your app locally.
 
-Latest news updates in real time
+View your app in AI Studio: https://ai.studio/apps/drive/1Ei823Avnu3Sp9KW3fn9xw9P3hc71cqdl
 
-Category-wise news browsing (Technology, Sports, Business, etc.)
+## Run Locally
 
-Simple and intuitive UI
+**Prerequisites:**  Node.js
 
-Fast and responsive performance
 
-🛠️ Tech Stack
-
-Android Studio
-
-Java / Kotlin (update based on your project)
-
-News API (if used)
-
-XML for UI Design
-
-📦 Installation
-
-Clone the repository
-
-git clone https://github.com/sree09112005/News_App_Nexara.git
-
-Open the project in Android Studio
-
-Build and run the app on an emulator or Android device
-
-📌 Project Status
-
-✅ Completed — APK generated successfully.
-
-👩‍💻 Author
-
-Developed by Sreenithi V
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
