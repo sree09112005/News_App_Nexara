@@ -27,7 +27,7 @@ XML for UI Design
 
 Clone the repository
 
-git clone 
+git clone https://github.com/sree09112005/News_App_Nexara.git
 
 Open the project in Android Studio
 
